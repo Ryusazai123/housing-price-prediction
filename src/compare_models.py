@@ -16,7 +16,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.neural_network import MLPRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-from src.preprocessing import Preprocessor
+from preprocessing import Preprocessor
 
 
 def metrics(y_true, y_pred):
